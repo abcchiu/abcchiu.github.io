@@ -2,154 +2,358 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Aisalily</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel="stylesheet" href="./style.css">
+  <title>CodePen - Blog Home Template</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./blog.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<html>
-  <head>
-    <title>Aisalily Studio - Website</title>
-  </head>
-  <body>
-<!--  Navigation Bar    -->
-    <nav id="navigation" class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Aisalily Studio</a>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarButtons" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> -->
+  <a class="navbar-brand" href="#">
+    <h3>💜 HiiCoco 可可食尚旅行 </h3>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active mr-3 ml-3">
+        <a class="nav-link" href="okinawa.html">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item mr-3 ml-3">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item mr-3 ml-3">
+        <a class="nav-link" href="contact.html">Contact</a>
+        <!--<a class="nav-link" href="#">Contact</a>-->
+      </li>
+      <li class="nav-item mr-3 ml-3">
+        <a class="nav-link" href="chat.html">ChatBot</a>
+        <!--<a class="nav-link" href="#">ChatBot</a>-->
+      </li>
+      <li class="nav-item mr-3 ml-3">
+        <a class="nav-link" href="#">GoodBuy</a>
+      </li>
+      <li class="nav-item dropdown mr-3 ml-3">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ToDo
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
-        <div class="collapse navbar-collapse" id="navbarButtons">          
-          <ul class="nav navbar-nav navbar-right">
-            <li id="navAbout" class="btn navbar-btn navActive">About</li>
-            <li id="navServices" class="btn navbar-btn">Services</li>
-            <!--<li id="navContact" class="btn navbar-btn">Contact</li>-->
-            <a href="blog.html" class="btn navbar-btn">Blog</a>
-            <a href="contact.html" class="btn navbar-btn">Contact</a>
-            <a href="chat.html" class="btn navbar-btn">ChatBot</a><!-- 用a不需用li-->
-          </ul>
-        </div>
-      </div>
-    </nav>
-<!--  Top page image    -->
- <div class="parallaxTop">
-   <div class="jumboBanner shadow">
-     <h1 class="banner">Aisalily Studio</h1>
-     <h3 class="motto">Lego / Programming / Management</h3>
-     <button id="bannerBtn" class="bannerBtn">LEARN MORE</button>
-   </div>
- </div>
-<!--  Main content   -->    
-<!--  About row      -->
-    <div id="aboutBlock" class="container">
-      <div id="aboutRow" class="row">
-        <div class="aboutLeft col-xs-12 col-sm-6 cloak">
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="aboutImg col-md-9"><img src="profile.jpg" alt="Girl" width="240" height="240"></div>
-          </div>
-        </div>
-        <div class="aboutRight col-xs-12 col-sm-6">
-          <div class="row">
-            <div class="col-md-9">            
-              <h2>OUR Leying Studio</h2>
-              <hr />
-              <p>We do things! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+      </li>
+    </ul>
+    <button class="btn btn-outline-light mr-2 my-2 my-sm-0" type="submit">Login</button>
+    <button class="btn btn-success my-2 my-sm-0" type="submit">Signup</button>
+  </div>
+</nav>
+
+<div class="cover">
+  <img src="https://picsum.photos/900/250">
+  <div class="cover-overlay text-light ml-lg-5 mb-lg-5 ml-md-4 mb-md-4 ml-sm-3 mb-sm-3">
+    <p class="cover-title">Some title for the cover image.</p>
+    <p>Some descriptive text for cover.</p>
+    <button class="cover-btn rounded">Action</button>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-8 col-xs-12 content-right bg-light">
+      <div class="row">
+        <div class="col text-center">
+          <div class="card">
+            <div class="card-img-container">
+              <img class="card-img-top" src="https://picsum.photos/250/150">
+              <div class="card-img-overlay d-flex align-items-end">
+                <a href="#"><span class="badge badge-primary">Japan</span></a>
+                <a href="#"><span class="badge badge-primary">Travel</span></a>
+              </div>
+            </div>
+            <div class="card-body text-left pt-3">
+              <h5 class="card-title font-weight-bold">2023 沖繩4天3夜攻略</h5>
+              <div class="row mb-2 text-muted">
+                <div class="col d-flex align-content-center"><i class="material-icons">account_circle</i>by Coco</div>
+                <div class="col d-flex align-content-center"><i class="material-icons">query_builder</i>01 Jan 2023</div>
+              </div>
+              <div class="card-text">沖繩說走就走擁抱大海好Chill 🏖️🏖️</div>
+              <button class="learn-more mt-3">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Read More</span>
+              </button>
             </div>
           </div>
-          <div class="col-md-3"></div>          
+        </div>
+        <div class="col text-center">
+          <div class="card">
+            <div class="card-img-container">
+              <img class="card-img-top" src="https://picsum.photos/250/150">
+              <div class="card-img-overlay d-flex align-items-end">
+                <a href="#"><span class="badge badge-primary">Japan</span></a>
+                <a href="#"><span class="badge badge-primary">Travel</span></a>
+              </div>
+            </div>
+            <div class="card-body text-left pt-3">
+              <h5 class="card-title font-weight-bold">2023 京阪賞櫻6天5夜攻略</h5>
+              <div class="row mb-2 text-muted">
+                <div class="col d-flex align-content-center"><i class="material-icons">account_circle</i>by John Doe</div>
+                <div class="col d-flex align-content-center"><i class="material-icons">query_builder</i>11 Mar 2016</div>
+              </div>
+              <div class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt...</div>
+              <button class="learn-more mt-3">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Read More</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-<!--  Services row      -->
-    <div id="servicesRow" class="parallaxSection">
-      <div class="shadowSection">
-        <h2>SERVICES</h2>
-        <hr />
-      </div>
-    </div>
-    <div id="serviceBlocks" class="row">
-      <div class="container">
-        <div class="serviceBlock col-md-4">
-          <h1>Service</h1>
-          <img src="https://cdn0.iconfinder.com/data/icons/thinico/88/thinico-17-512.png" />
-          <p>We do things! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-        </div>
-        <div class="serviceBlock col-md-4">
-          <h1>Service</h1>
-          <img src="https://cdn0.iconfinder.com/data/icons/thinico/88/thinico-17-512.png" />
-          <p>We do things! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-        </div>
-        <div class="serviceBlock col-md-4">
-          <h1>Service</h1>
-          <img src="https://cdn0.iconfinder.com/data/icons/thinico/88/thinico-17-512.png" />
-          <p>We do things! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-        </div>
-      </div>
-    </div>
-<!--  Contact form      -->
-      <div id="phoneContact" class="phoneContact row">
-        <div class="container">
-          <h2>CONTACT US BY PHONE TODAY! CALL 1-555-555-5555</h2>
-        </div>
-      </div> 
-      <div class="container">               
-        <div id="contactRow" class="contactForm row">
-          <h2>CONTACT FORM</h2>
-          <hr />
-          <h3>Enter you contact informaiton and message below.</h3>
-          <form name="contactForm" class="form-group" action="#" method="POST">
-            <input id="formName" name="name" class="inputInline form-control" type="text" placeholder="Name" required />
-            <input id="formEmail" name="email" class="inputInline form-control" type="email" placeholder="Email" required />
-            <textarea id="formMessage" name="message" class="form-control" type="text" placeholder="Message" required></textarea>
-            <input name="submit" class="bannerBtn" type="submit" value="SEND MESSAGE" />
-          </form>
-        </div>        
-      </div>
-<!--  Contact info      -->
-    <div id="contactInfo" class="row">
-      <div class="container">
-        <div class="contactStack col-md-4">
-          <h4>ADDRESS</h4>
-          <p>123 Test Avenue</p>
-          <p>Charlotte, NC 28216</p>
-        </div>
-        <div class="contactStack col-md-4">
-          <h4>OPERATION HOURS</h4>
-          <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
-          <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
-        </div>
-        <div class="contactStack col-md-4">
-          <h4>CONTACT INFO</h4>
-          <p>Phone: 555-555-5555</p>
-          <p>Email: email@Leying Studio.com</p>
-        </div>
-      </div>
-    </div>
-<!--  Copyright    -->
-    <div id="copyright" class="row">
-      <div class="container">
-        <div id="socialBtn">
-          <a href="#" class="social"><img id="facebook"></a>
-          <a href="#" class="social"><img id="twitter"></a>
-          <a href="#" class="social"><img id="linkedin"></a>
-        </div>
-        <p>&copy; 2017 Leying Studio. All rights reserved. Designed and created by Mitchell Console</p>
-      </div>
-    </div>
-  </body>
-</html>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
 
+      <div class="row">
+        <div class="col text-center">
+          <div class="card">
+            <div class="card-img-container">
+              <img class="card-img-top" src="https://picsum.photos/250/150">
+              <div class="card-img-overlay d-flex align-items-end">
+                <a href="#"><span class="badge badge-primary">Japan</span></a>
+                <a href="#"><span class="badge badge-primary">Travel</span></a>
+              </div>
+            </div>
+            <div class="card-body text-left pt-3">
+              <h5 class="card-title font-weight-bold"></a>2023 東京5天4夜攻略</a></h5>
+              <div class="row mb-2 text-muted">
+                <div class="col d-flex align-content-center"><i class="material-icons">account_circle</i>by John Doe</div>
+                <div class="col d-flex align-content-center"><i class="material-icons">query_builder</i>11 Mar 2016</div>
+              </div>
+              <div class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt...</div>
+              <button class="learn-more mt-3">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <a href="okinawa.html"><span class="button-text">Read More</span></a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center">
+          <div class="card">
+            <div class="card-img-container">
+              <img class="card-img-top" src="https://picsum.photos/250/150">
+              <div class="card-img-overlay d-flex align-items-end">
+                <a href="#"><span class="badge badge-primary">Sports</span></a>
+                <a href="#"><span class="badge badge-primary">New</span></a>
+              </div>
+            </div>
+            <div class="card-body text-left pt-3">
+              <h5 class="card-title font-weight-bold">Some Interesting Title</h5>
+              <div class="row mb-2 text-muted">
+                <div class="col d-flex align-content-center"><i class="material-icons">account_circle</i>by John Doe</div>
+                <div class="col d-flex align-content-center"><i class="material-icons">query_builder</i>11 Mar 2016</div>
+              </div>
+              <div class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt...</div>
+              <button class="learn-more mt-3">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Read More</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <div class="card">
+            <div class="card-img-container">
+              <img class="card-img-top" src="https://picsum.photos/250/150">
+              <div class="card-img-overlay d-flex align-items-end">
+                <a href="#"><span class="badge badge-primary">Sports</span></a>
+                <a href="#"><span class="badge badge-primary">New</span></a>
+              </div>
+            </div>
+            <div class="card-body text-left pt-3">
+              <h5 class="card-title font-weight-bold">Some Interesting Title</h5>
+              <div class="row mb-2 text-muted">
+                <div class="col d-flex align-content-center"><i class="material-icons">account_circle</i>by John Doe</div>
+                <div class="col d-flex align-content-center"><i class="material-icons">query_builder</i>11 Mar 2016</div>
+              </div>
+              <div class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt...</div>
+              <button class="learn-more mt-3">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Read More</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center">
+          <div class="card">
+            <div class="card-img-container">
+              <img class="card-img-top" src="https://picsum.photos/250/150">
+              <div class="card-img-overlay d-flex align-items-end">
+                <a href="#"><span class="badge badge-primary">Sports</span></a>
+                <a href="#"><span class="badge badge-primary">New</span></a>
+              </div>
+            </div>
+            <div class="card-body text-left pt-3">
+              <h5 class="card-title font-weight-bold">Some Interesting Title</h5>
+              <div class="row mb-2 text-muted">
+                <div class="col d-flex align-content-center"><i class="material-icons">account_circle</i>by John Doe</div>
+                <div class="col d-flex align-content-center"><i class="material-icons">query_builder</i>11 Mar 2016</div>
+              </div>
+              <div class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt...</div>
+              <button class="learn-more mt-3">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Read More</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4 text-center">
+      <div class="m-3 mb-4">
+        <span>Search articles:</span>
+        <div class="search-box"><input type="text" name="search" placeholder="search"><button><i class="material-icons">search</i></button></div>
+      </div>
+
+      <div class="m-2 m-4">
+        <span>Stay ahead of the game</span>
+        <button class="action-button" data-toggle="modal" data-target="#subscribe-modal"><span>SUBSCRIBE TO THE NEWSLETTER</span>
+          <div><i class="material-icons">email</i></div>
+        </button>
+        <div class="modal fade" id="subscribe-modal">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header pl-0">
+                <h4 class="modal-title w-100 text-center position-absolut">Subscribe to the newsletter</h4>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+              <div class="modal-body text-center">
+                <p class="m-2">Subscribe to our newsletters now and stay up-to-date with new collections, the latest lookbooks and exclusive offers.</p>
+                <input class="m-2 p-2 rounded subscribe-input" type="text" name="email">
+                <br>
+                <button class="btn btn-outline-primary mb-5">Submit</button>
+                <br>
+                <label class="form-check-label mb-4" for="check1">
+                  <input type="checkbox" class="form-check-input" name="option1" value="something">Don't show this popup again
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="suggested">
+        <div class="suggested-title">Articles you may like</div>
+        <a class="custom-card bg-light rounded" href="#">
+          <img src="https://picsum.photos/200/120">
+          <div class="body">
+            <h5 class="c-title">Card Title</h5>
+            <p class="c-text">Some descriptive text for card.</p>
+          </div>
+        </a>
+        <a class="custom-card bg-light rounded" href="#">
+          <img src="https://picsum.photos/200/120">
+          <div class="body">
+            <h5 class="c-title">Card Title</h5>
+            <p class="c-text">Some descriptive text for card.</p>
+          </div>
+        </a>
+        <a class="custom-card bg-light rounded" href="#">
+          <img src="https://picsum.photos/200/120">
+          <div class="body">
+            <h5 class="c-title">Card Title</h5>
+            <p class="c-text">Some descriptive text for card.</p>
+          </div>
+        </a>
+        <a class="custom-card bg-light rounded" href="#">
+          <img src="https://picsum.photos/200/120">
+          <div class="body">
+            <h5 class="c-title">Card Title</h5>
+            <p class="c-text">Some descriptive text for card.</p>
+          </div>
+        </a>
+      </div>
+      <!--Category list-->
+      <div class="card mb-3 shadow-lg rounded-lg">
+        <div class="card-body">
+          <h4 style="color: rgb(0, 0, 0);">Categories</h4>
+          <div class="list-group list-group-flush">
+            <li class="list-group-item rounded-lg">
+              <a href="category.html">
+                <div class="h6" style="color: rgb(0, 0, 0);">Travel</div>
+              </a>
+              <div class="h6 text-muted">1 Post(s)</div>
+            </li>
+          </div>
+          <!--<div class="list-group list-group-flush">
+            <li class="list-group-item rounded-lg">
+              <div class="h6" style="color: rgb(0, 0, 0);">Europe</div>
+              <div class="h6 text-muted">1 Post(s)</div>
+            </li>
+          </div>-->
+          <div class="list-group list-group-flush">
+            <li class="list-group-item rounded-lg">
+              <div class="h6" style="color: rgb(0, 0, 0);">Taste</div>
+              <div class="h6 text-muted">1 Post(s)</div>
+            </li>
+          </div>
+          <div class="list-group list-group-flush">
+            <li class="list-group-item rounded-lg">
+              <div class="h6" style="color: rgb(0, 0, 0);">3C</div>
+              <div class="h6 text-muted">1 Post(s)</div>
+            </li>
+          </div>
+          <div class="list-group list-group-flush">
+            <li class="list-group-item rounded-lg">
+              <div class="h6" style="color: rgb(0, 0, 0);">SEO</div>
+              <div class="h6 text-muted">1 Post(s)</div>
+            </li>
+          </div>
+          <div class="list-group list-group-flush">
+            <li class="list-group-item rounded-lg">
+              <div class="h6" style="color: rgb(0, 0, 0);">Movie</div>
+              <div class="h6 text-muted">1 Post(s)</div>
+            </li>
+          </div>
+          <div class="list-group list-group-flush">
+            <li class="list-group-item rounded-lg">
+              <div class="h6" style="color: rgb(0, 0, 0);">DIY</div>
+              <div class="h6 text-muted">1 Post(s)</div>
+            </li>
+          </div>
+
+
+        </div>
+      </div>
+      <!--Category list end-->
+
+    </div>
+
+  </div>
+</div>
+<!--<button class="floating-btn">
+	Get in Touch
+</button>-->
+
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
 </body>
 </html>

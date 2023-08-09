@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.col .card {
+  margin: 10px 0;
+  border: none;
+}
+.col .card-title {
+  font-family: "Poppins", sans-serif;
+}
+.col .card-body {
+  padding: 0px;
+}
+
+a.category-link {
+  text-decoration: none;
+  font-size: 13px;
+  color: #006abe;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Learn More */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+button.learn-more {
+  width: 9rem;
+  height: auto;
+}
+button.learn-more .circle {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+  background: #282936;
+  border-radius: 1rem;
+}
+button.learn-more .circle .icon {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+button.learn-more .circle .icon.arrow {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.2rem;
+  width: 1rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+button.learn-more .button-text {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0.2rem;
+  margin: 0 0 0 1.85rem;
+  font-size: 13px;
+  color: #282936;
+  font-weight: 700;
+  line-height: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.col .card:hover button .circle {
+  width: 100%;
+}
+.col .card:hover button .circle .icon.arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+  transform: translate(1rem, 0);
+}
+.col .card:hover button .button-text {
+  color: #fff;
+}
+
+button.learn-more:hover .circle {
+  background: #006abe;
+}
+.cover {
+  position: relative;
+  width: 100%;
+}
+.cover img {
+  width: 100%;
+  object-fit: contain;
+}
+.cover .cover-overlay {
+  padding: 5px;
+  position: absolute;
+  font-size: 2vw;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+}
+.cover .cover-title {
+  margin: 0;
+  font-size: 3vw;
+}
+
+.cover p {
+  margin: 0;
+}
+
+.cover-btn {
+  padding: 0 0.4em;
+  color: green;
+  border: 1px solid #28a745;
+  font-size: 0.8em;
+}
+
+.cover-btn:hover {
+  color: white;
+  background-color: #28a745;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.card-img-overlay {
+  padding: 5% !important;
+  width: 100%;
+  height: 100%;
+}
+
+.badge {
+  font-size: 14px !important;
+  margin: 0 4px;
+}
+.custom-card {
+  display: block;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+}
+.custom-card:hover {
+  text-decoration: none;
+}
+.custom-card img {
+  width: 60%;
+  object-fit: contain;
+}
+.custom-card .body {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+.custom-card .c-title {
+  font-family: "Poppins", sans-serif;
+}
+.c-text {
+  font-size: 14px;
+}
+.search-box {
+  border-radius: 100vh;
+  background-color: #e8f0fe;
+  border: 1px solid black;
+  padding: 3px 3px 3px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.search-box input {
+  width: 90%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.search-box button {
+  position: relative;
+  right: 0;
+  height: 2em;
+  width: 2em;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  margin: auto;
+}
+.search-box button:focus {
+  outline: none;
+}
+.search-box .material-icons {
+  font-size: 15px;
+}
+.action-button {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #c673b3;
+  text-align: center;
+  padding: 0.6em 0.8em;
+  padding-right: 3em;
+  color: white;
+  transition: all 0.2s;
+}
+.action-button div {
+  position: absolute;
+  height: 100%;
+  width: 2.6em;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  background-color: #b267a1;
+  justify-content: center;
+}
+.action-button .material-icons {
+  transition: all 0.2s;
+}
+.action-button:hover {
+  transform: scale(1.01);
+}
+.action-button:hover .material-icons {
+  transform: skew(-20deg);
+}
+.action-button:focus {
+  outline: none;
+}
+#subscribe-modal .modal-title {
+  font-family: "Poppins", sans-serif;
+}
+.subscribe-input {
+  width: 90%;
+  height: 2em;
+}
